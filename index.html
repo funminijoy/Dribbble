@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dribbble</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <style>
+    .left, .right{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .left{
+        /* background-image:url('image/dribbble.jpg'); */
+    }
+
+
+    .right{
+        background: white;
+    }
+   
+
+.Centercontent{
+    width: 100%;
+    max-width: 416px;
+    margin: auto;
+}
+
+    input.text-input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    font: 16px/22px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 9px 15px;
+    margin-right: 8px;
+    background: #f5f6f7;
+    color: #444;
+    -webkit-box-shadow: inset 0px 2px 3px rgba(0,0,0,0.03);
+    box-shadow: inset 0px 2px 3px rgba(0,0,0,0.03);
+    outline: none;
+}
+
+input.button {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font: bold 13px/16px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #ea4c88;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    margin-top: 22px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.main{
+    margin: 0 auto;
+    padding: 210px 20px;
+
+}
+
+hr.divider {
+    overflow: visible;
+    padding: 0;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    color: #757575;
+    text-align: center;
+}
+
+hr.divider:after {
+    content: "Or";
+    display: inline-block;
+    position: relative;
+    top: -13px;
+    font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 16px;
+    background: white;
+}
+    </style>
+</head>
+<body>
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="left no-gutters">
+                <img src="image/dribbble.JPG" width="100%"; height="100%">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="right no-gutters">
+                <div style="float: right;">Not a member? <a href="#" style="text-decoration: none;">Sign up now</a></div>
+                <div class="main Centercontent">
+                <div class="Centercontent">
+                        <h2 style="font-weight:700">Sign in to Dribbble</h2>
+                        <div>
+                            <button class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i class="fab fa-google" ><span style="margin-left: 40px; height: 48px; font-weight: 700;">Sign in with Google</span></i></button>
+                            <button type="button" class="btn btn-outline-dark" style="height: 48px; width: 48px;"><i class="fab fa-twitter"></i></button>
+                            <button type="button" class="btn btn-outline-dark" style="height: 48px; width: 48px;">
+                            <i class="fab fa-facebook"></i> </button>
+                        </div>
+                        <hr class="divider">
+                      
+                        <!-- <div class=""> -->
+                          <form>
+                            <div class="form-fields">
+                              <fieldset>
+                                <label for="login"><b>Username or Email Address</b></label>
+                                <input type="text" name="login" id="login" tabindex="1" class="text-input" autocorrect="off" autocapitalize="off">
+                              </fieldset>
+                              <fieldset>
+                                <label for="password" class="password"><b>Password</b> <a href="#">Forgot password?</a></label>
+                                <input type="password" name="password" id="password" value="" tabindex="2" class="text-input">
+                              </fieldset>
+                            </div>
+                            <input class="button" type="submit" value="Sign In" tabindex="3" style="width: 50%;">
+                          </form>
+                            <!-- <p class="auth-link-mobile">
+                              Not a member? <a href="#">Sign up now</a>
+                            </p> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
